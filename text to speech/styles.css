@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(60, 60, 169);
+    
+}
+h1{
+    color: white;
+}
+.convert{
+    color: rgb(156, 66, 66);
+    text-decoration: underline;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+textarea{
+    background-color: rgb(67, 67, 135);
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+    width: 350px;
+}
+.area{
+    display: flex;
+}
+button{
+    background-color: rgb(189, 59, 81);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+button:hover{
+    background-color:rgb(189, 6, 6);
+}
+#voiceSelect{
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+    width: 170px;
+    border: none;
+    background-color: rgb(67, 67, 135);
+    color: white;
+    padding: 10px;
+}
+#speak-button{
+    margin-left: 10px;
+    padding: 5px;
+    height: 36px;
+}
